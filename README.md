@@ -38,6 +38,10 @@ HowTo:
 * Set your `config.ini` to your desired settings.
 * Make sure you also copied the `.htaccess` in same directory.
 * Now navigate to your `localhost/ayeshare` then start using the system.  
+ 
+Limitation:  
+
+There is no admin interface for deleting uploaded files. You have to do it manually.
 
 Disclaimer:  
 
