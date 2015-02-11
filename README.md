@@ -21,6 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.  
 
 Features:  
+
 1. Selected file will be auto-uploaded.  
 2. Download file within valid time.  
 3. Send link/s to friends.  
@@ -28,12 +29,14 @@ Features:
 5. and more.  
 
 HowTo:  
+
 `git clone https://github.com/pantuts/ayeshare`  
 * Copy all the files to your webserver and make sure you have the right access.  
-* Configure you `php.ini` for `upload_max_filesize` and `post_max_size` to your required upload size (Ex: 20M).  
+* Configure your `php.ini` for `upload_max_filesize` and `post_max_size` to your required upload size (Ex: 20M).  
 * Set your `config.ini` to your desired settings.
 * Make sure you also copied the `.htaccess` in same directory.
 * Now navigate to your `localhost/ayeshare` then start using the system.  
 
 Disclaimer:  
+
 I'm not an expert. Thanks. :)
