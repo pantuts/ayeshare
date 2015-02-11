@@ -1,0 +1,15 @@
+### this one is not working in my localhost
+### i don't know why
+### so you have to change the values inside php.ini
+# override php.ini
+#<IfModule mod_php5.c>
+#	 php_value upload_max_filesize 5M
+#	 php_value post_max_size 10M
+#	 php_flag display_errors off
+#</IfModule>
+
+# prevent viewing this file
+<FilesMatch "(config\.ini|\.htaccess)">
+	order allow,deny
+	deny from all
+</FilesMatch>
