@@ -21,13 +21,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.  
 
 Features:  
-1. Selected file will be auto-uploaded.
-2. Download file within valid time.
-3. Send link/s to friends.
-4. Security aware. Scripts like php or perl will be treated as text/plain.
+1. Selected file will be auto-uploaded.  
+2. Download file within valid time.  
+3. Send link/s to friends.  
+4. Security aware. Scripts like php or perl will be treated as text/plain.  
 5. and more.  
 
-HowTo:
+HowTo:  
 `git clone https://github.com/pantuts/ayeshare`  
 * Copy all the files to your webserver and make sure you have the right access.  
 * Configure you `php.ini` for `upload_max_filesize` and `post_max_size` to your required upload size (Ex: 20M).  
